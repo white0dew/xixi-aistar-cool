@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="56" x2="436" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7FF" />
+      <stop offset="0.45" stop-color="#5B8CFF" />
+      <stop offset="1" stop-color="#A855F7" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(148 120) rotate(49.3987) scale(331.933)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="256" fill="#091224" />
+  <rect x="24" y="24" width="464" height="464" rx="232" fill="url(#bg)" />
+  <rect x="24" y="24" width="464" height="464" rx="232" fill="url(#glow)" opacity="0.5" />
+  <circle cx="256" cy="256" r="168" fill="#0B1322" fill-opacity="0.92" />
+  <path d="M185.839 173H226.701L256.269 218.589L285.837 173H326.699L276.896 246.235L329.475 339H288.096L256.269 288.145L224.441 339H183.062L235.641 246.235L185.839 173Z" fill="#F8FBFF"/>
+  <path d="M197.5 138C223.226 118.475 243.572 109 258.536 109C275.407 109 291.367 118.475 306.416 137.425L289.659 153.5C278.045 140.938 267.33 134.656 257.514 134.656C247.604 134.656 234.541 141.144 218.325 154.12L197.5 138Z" fill="#D9F6FF" fill-opacity="0.88"/>
+</svg>
