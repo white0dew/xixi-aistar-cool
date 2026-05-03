@@ -19,7 +19,14 @@ require(HTML, "西西Claire", "site name")
 require(HTML, "AI产品 / vibe coding / marketing", "subtitle")
 require(HTML, 'href="css/style.css?v=20260503-1"', "css version")
 require(HTML, 'src="js/main.js?v=20260503-1"', "js version")
+require(
+    HTML,
+    'src="https://umami.aistar.cool/script.js" data-website-id="82eaa102-f844-4c15-afdf-b4d112267ac8"',
+    "umami script",
+)
 require(HTML, 'src="public/avatar.svg?v=20260503-1"', "avatar asset")
+require(HTML, 'class="topbar"', "topbar header")
+require(HTML, 'class="brand-mark" href="#top">XIXI.CLAIRE</a>', "brand link")
 
 for anchor in [
     "featured-projects",
@@ -67,6 +74,9 @@ for removed in [
     "detail-panel",
     "个人品牌主页",
     "产品包装",
+    'class="topbar-actions"',
+    'class="topbar-pill"',
+    'aria-label="站内导航"',
 ]:
     forbid(HTML, removed, removed)
 
