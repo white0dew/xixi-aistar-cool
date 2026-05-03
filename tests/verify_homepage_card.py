@@ -43,6 +43,16 @@ for text in [
 ]:
     require(HTML, text, text)
 
+for href in [
+    'href="https://blog.aistar.cool/projects"',
+    'href="https://blog.aistar.cool/blogs"',
+    'href="https://code.aistar.cool"',
+    'href="https://store.reshub.vip/"',
+    'target="_blank"',
+    'rel="noopener"',
+]:
+    require(HTML, href, href)
+
 for klass in [
     "meta-item--xiaohongshu",
     "meta-item--wechat",
@@ -62,5 +72,8 @@ for removed in [
 
 if HTML.count('class="entry-card"') != 4:
     raise AssertionError("expected exactly 4 entry cards")
+
+if HTML.count('class="entry-arrow"') != 4:
+    raise AssertionError("expected exactly 4 entry arrows")
 
 print("PASS")
