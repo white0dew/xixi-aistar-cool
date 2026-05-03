@@ -1,2 +1,5 @@
 .tmp-shots
 .env
+__pycache__/
+*.pyc
+tests/artifacts/
